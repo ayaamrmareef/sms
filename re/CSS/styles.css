@@ -1,0 +1,351 @@
+/* styles.css */
+
+body {
+    background-image:url('opi.jpeg');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size:cover;
+  
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header, nav, main, footer {
+    padding: 20px;
+}
+
+header {
+    font-size:larger;
+    font-weight: 900;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:lightcoral;
+
+    color: #fff;
+ 
+}
+header img {
+    border-image:40px;
+    height: 50px;
+    width: 50px;
+    vertical-align:middle;
+    margin-right: 10px;
+float: left;
+padding: 25px;
+border-radius: 50px;
+
+
+}
+pre {
+    
+    white-space: pre-wrap;
+    font-family:'Times New Roman', Times, serif;
+    font-size:15px;
+    background-color: #f5f5f5;
+    border: 1px solid fff ;
+    padding: 20px;
+    margin-top: 10px;
+   
+  }
+.colored-text{
+    color: #d44304;
+}
+.first-letter{
+    font-size: 5.5em;
+    color: #d44304;
+}
+
+nav {
+  
+    background-color: #f2f2f2;
+}
+
+nav ul {
+    
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    transition: 0.5s; /* يدير نعومه*/
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: #333;
+    
+}
+a{
+    color: #5f9dcd;
+    text-decoration: none;
+    padding: 5px;
+
+
+}
+a:hover{
+    transition: 0.5s; /* يدير نعومه*/
+    color: #3100f4;
+    text-decoration: none;
+
+}
+nav ul li a:hover {
+
+    color: #ff4d00;
+}
+ /* بش نخلي مربع البحث جيهت اليمين*/
+
+ .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-box {
+  
+    margin:9px;
+    
+}
+
+
+h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:unset;
+    font-weight:bold;
+    font-size:xx-large;
+    forced-color-adjust:initial;
+    text-align: center;
+}
+
+main {
+    text-align:center;
+    background-color: #fff;
+    font-style: unset;
+    
+    
+}
+#re{
+    font-size: 30PX;
+    font-family:Georgia, 'Times New Roman', Times, serif
+   
+}
+
+pre{
+    text-align: left;
+
+}
+
+  
+video{
+    border: #000000;
+    border-color: #e00303;
+    border-radius: 50px;
+}
+
+footer {
+    background-color:lightcoral;
+
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+  /* تسجيل الدحول*/
+  fieldset{
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+    text-align: center;
+  
+    border-color: #dc622e;
+    border-radius: 50px; 
+ 
+  }
+  .image-container{
+    order: 2;
+    margin-left: 20px;
+
+
+  }
+  .image-container img{
+    width: auto;
+    height:500px;
+  }
+.text-container{
+   
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+  legend{
+font-size: 16px;
+padding: 16px;
+font-weight: 700;
+
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+  
+form{
+    text-align:center;
+    padding:26px;
+    padding-top:1px;
+
+}
+  label{
+    font-weight:600;
+    font-family:'Times New Roman', Times, serif;
+    font-style:oblique;
+    color:#000000;
+
+  }
+  input[type="submit"]{
+    
+    font-weight:900;
+    color: rgb(0, 0, 0);
+    border-color: #dfb8b8;
+    border-radius: 40px;
+    padding: 7px;
+    font-size: 10px;
+    font-family:'Times New Roman', Times, serif;
+  
+  }
+  input[type="submit"]:hover{
+    background-color:hsl(0, 7%, 89%);
+   color: #b52323;
+}
+input[type="submit"]:active{
+    transform: translateY(5px);
+}
+#username{
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 30px ;
+    outline:none;
+}
+#username:focus{
+    border-color: rgb(255, 107, 1);
+}
+#password{
+    text-align: center;
+   
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 30px ;
+    outline:none;
+}
+#password:focus{
+    border-color: rgb(255, 107, 1);
+
+}
+#phone{
+    text-align: center;
+   
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 30px ;
+    outline:none;
+}
+#age{
+    text-align: center;
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 30px ;
+    outline:none;
+
+}
+
+#imgred{
+ margin-left:15px;
+position: relative;/*خلالي الصورة يسار */
+float: right; /*خلالي الكتيبه يمين*/
+border-radius: 110px;
+}
+#imgred1{
+    margin-right:15px;
+    position: relative;/*خلالي الصورة يسار */
+    float:left; /*خلالي الكتيبه يمين*/
+
+    border-radius: 110px;
+    }
+#vi{
+    font-family: 'Times New Roman', Times, serif;
+    color: #ba1717;
+    font-weight:700;
+    
+}
+.post-container{
+
+    display: flex;
+    align-items:center;
+}
+#imgpost{
+    margin-right: 10px;
+    width:auto;
+    height: 45px;
+
+
+}
+.post .placeholder-text{
+    color: #000000;
+   
+    opacity: 0.6;
+ 
+}
+
+.post {
+    align-items:center;
+    border: 1px solid #a54949;
+    padding: 10px;
+    margin-bottom: 10px;
+text-align:left ;
+ width: 250px;
+ height: 40PX;
+ border-radius: 9px;
+ min-height: 100px; /* تعيين ارتفاع أدنى لصندوق المنشور */
+ overflow: auto; /* تمكين التمرير العمودي إذا تجاوز المحتوى ارتفاع الصندوق */
+ resize: vertical; /* السماح بتغيير الحجم العمودي للصندوق */
+  }
+  
+  button {
+    color: #5f9dcd;
+
+ 
+    margin-left: 10px;
+    font-weight:900;
+    border-color: #dfb8b8;
+    border-radius: 7px;
+    padding: 7px;
+    font-size: 11.75px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: start;
+  }
+  button:hover{
+    transition: 0.5s; /* يدير نعومه*/
+    color: #3100f4;
+    text-decoration: none;
+
+}
+input[type="file"]
+  {
+  margin: 9px;
+ 
+  
+  }
+  #conactlogo
+  {  
+    width:auto;
+    height: 25px;
+    border-radius: 110px;
+    
+    
+  }
